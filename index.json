@@ -1,0 +1,22 @@
+{
+  "format": "kakake-plugins-v1",
+  "store_name": "咔咔珂插件商店",
+  "notice": "本商店插件均由社区投稿、经维护者审核后收录。启用即代表你自愿使用该插件，第三方插件的安全与合规请自行甄别。",
+  "categories": [
+    { "id": 1, "name": "咔咔插件" }
+  ],
+  "plugins": [
+    {
+      "id": 1,
+      "title": "MKbot",
+      "version": "2.3.9.alpha.2",
+      "github": "tc-404",
+      "homepage": "https://github.com/tc-404/kakake-plugin-mkbot",
+      "summary": "综合娱乐和群管插件",
+      "description": "MKbot —— 综合娱乐与群管功能插件，含丰富的娱乐玩法与群管理工具。",
+      "tags": ["娱乐", "群管"],
+      "download": "https://github.com/tc-404/kakake-plugin-main/releases/download/mkbot-v2.3.9.alpha.2/kakake-plugin-mkbot-2.3.9.alpha.2.zip",
+      "sha256": "a39821db9d1362cda5a295065230993911366c13cd80c4269c60763925a98226"
+    }
+  ]
+}
