@@ -16,6 +16,20 @@
       "tags": ["娱乐", "群管"],
       "download": "https://github.com/tc-404/kakake-plugin-main/releases/download/111/kakake-plugin-mkbot-2.3.9.alpha.2.zip",
       "sha256": "a39821db9d1362cda5a295065230993911366c13cd80c4269c60763925a98226"
+    },
+    {
+      "title": "AI",
+      "version": "1.4.0",
+      "plugin_id": "kakake-plugin-mkai",
+      "name": "tc-404",
+      "type": "野生",
+      "min_kakake": "0.5.0",
+      "homepage": "https://github.com/tc-404/kakake-plugin-mkai",
+      "summary": "群聊、私聊智能AI对话",
+      "description": "MKAI",
+      "tags": ["娱乐"],
+      "download": "https://github.com/tc-404/kakake-plugin-main/releases/download/111/kakake-plugin-mkai-1.4.0.zip",
+      "sha256": "f4b36bb5f38e3c74012f8f1d3d61246a66565c53aef311f995f4c334c1d66547"
     }
   ]
 }
