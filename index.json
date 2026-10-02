@@ -30,6 +30,20 @@
       "tags": ["娱乐"],
       "download": "https://github.com/tc-404/kakake-plugin-main/releases/download/111/kakake-plugin-mkai-1.4.0.zip",
       "sha256": "f4b36bb5f38e3c74012f8f1d3d61246a66565c53aef311f995f4c334c1d66547"
+    },
+    {
+      "title": "问答系统",
+      "version": "1.1.0",
+      "plugin_id": "GF-plugin-wend",
+      "name": "天道化逍遥",
+      "type": "官方",
+      "min_kakake": "0.5.0",
+      "homepage": "https://github.com/3671656786/GF-plugin-wenda",
+      "summary": "QQ 官方机器人问答：本群 / 全局 / 私聊，精准与模糊；答案支持文字与图片等二改功能，菜单名：问答系统/菜单 / 问答帮助 / 问答指南",
+      "description": "QQ 官方机器人问答：本群 / 全局 / 私聊，精准与模糊；答案支持文字与图片等二改功能，菜单名：问答系统/菜单 / 问答帮助 / 问答指南",
+      "tags": ["工具"],
+      "download": "https://github.com/3671656786/GF-plugin-wenda/archive/refs/tags/1.1.0.zip",
+      "sha256": ""
     }
   ]
 }
