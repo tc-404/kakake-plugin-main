@@ -34,7 +34,7 @@
     {
       "title": "问答系统",
       "version": "1.1.0",
-      "plugin_id": "GF-plugin-wend",
+      "plugin_id": "GF-plugin-wenda",
       "name": "天道化逍遥",
       "type": "官方",
       "min_kakake": "0.5.0",
@@ -44,6 +44,20 @@
       "tags": ["工具"],
       "download": "https://github.com/tc-404/kakake-plugin-main/releases/download/111/GF-plugin-wenda-1.1.0.zip",
       "sha256": "cfc87afb9eed593601b4b49964f18454a0712ae71be26c8a0797e5fc6084b431"
+    },
+    {
+      "title": "GF_mk-娱乐",
+      "version": "1.1.0",
+      "plugin_id": "GF-plugin-xinjia",
+      "name": "天道化逍遥",
+      "type": "官方",
+      "min_kakake": "0.5.0",
+      "homepage": "https://github.com/3671656786/GF-plugin-xinjia",
+      "summary": "[二改]QQ 官方娱乐：点歌、视频解析、今日运势；控制台 React 后台",
+      "description": "[二改]QQ 官方娱乐：点歌、视频解析、今日运势；控制台 React 后台",
+      "tags": ["娱乐","工具"],
+      "download": "https://github.com/tc-404/kakake-plugin-main/releases/download/111/GF-plugin-xinjia-1.1.0.zip",
+      "sha256": "2a27418d7ea807a496dd35bd4a81f6741d2ce29a727ed37e8ef1432a92ccc2fd"
     }
   ]
 }
