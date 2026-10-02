@@ -42,8 +42,8 @@
       "summary": "QQ 官方机器人问答：本群 / 全局 / 私聊，精准与模糊；答案支持文字与图片等二改功能，菜单名：问答系统/菜单 / 问答帮助 / 问答指南",
       "description": "QQ 官方机器人问答：本群 / 全局 / 私聊，精准与模糊；答案支持文字与图片等二改功能，菜单名：问答系统/菜单 / 问答帮助 / 问答指南",
       "tags": ["工具"],
-      "download": "https://github.com/3671656786/GF-plugin-wenda/archive/refs/tags/1.1.0.zip",
-      "sha256": ""
+      "download": "https://github.com/tc-404/kakake-plugin-main/releases/download/111/GF-plugin-wenda-1.1.0.zip",
+      "sha256": "cfc87afb9eed593601b4b49964f18454a0712ae71be26c8a0797e5fc6084b431"
     }
   ]
 }
