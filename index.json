@@ -58,6 +58,20 @@
       "tags": ["娱乐","工具"],
       "download": "https://github.com/tc-404/kakake-plugin-main/releases/download/111/GF-plugin-xinjia-1.1.0.zip",
       "sha256": "2a27418d7ea807a496dd35bd4a81f6741d2ce29a727ed37e8ef1432a92ccc2fd"
+    },
+    {
+      "title": "HTML渲染服务插件",
+      "version": "1.5.0",
+      "plugin_id": "kakake-plugin-puppeteer",
+      "name": "AQiaoYo",
+      "type": "野生",
+      "min_kakake": "0.5.0",
+      "homepage": "https://github.com/AQiaoYo/napcat-plugin-puppeteer",
+      "summary": "直接接的仓库地址，上传者不是仓库作者本人，如有侵权请联系下架",
+      "description": "直接接的仓库地址，上传者不是仓库作者本人，如有侵权请联系下架",
+      "tags": ["工具"],
+      "download": "https://github.com/AQiaoYo/napcat-plugin-puppeteer/releases/download/v1.5.0/napcat-plugin-puppeteer.zip",
+      "sha256": "eed1e11d1e120bfffc811a14f77354396340f886e18e6f5ae7d75e6a11618630"
     }
   ]
 }
