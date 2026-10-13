@@ -72,6 +72,20 @@
       "tags": ["工具"],
       "download": "https://github.com/AQiaoYo/napcat-plugin-puppeteer/releases/download/v1.5.0/napcat-plugin-puppeteer.zip",
       "sha256": "eed1e11d1e120bfffc811a14f77354396340f886e18e6f5ae7d75e6a11618630"
+    },
+    {
+      "title": "双生插件例子 - 视频解析",
+      "version": "0.1.0",
+      "plugin_id": "sssx-plugin-spjx",
+      "name": "三个句号",
+      "type": "双生",
+      "min_kakake": "0.6.2",
+      "homepage": "https://github.com/tc-404/Twin",
+      "summary": "必须0.6.2以上的kakake才能使用，同时兼容野鸡和官鸡",
+      "description": "共支持抖音、快手、小红书、哔哩哔哩这四个的解析",
+      "tags": ["工具"],
+      "download": "https://github.com/tc-404/kakake-plugin-main/releases/download/111/sssx-plugin-spjx-v0.1.0.zip",
+      "sha256": ""
     }
   ]
 }
