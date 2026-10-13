@@ -19,7 +19,7 @@
     },
     {
       "title": "AI",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "plugin_id": "kakake-plugin-mkai",
       "name": "tc-404",
       "type": "野生",
@@ -28,8 +28,8 @@
       "summary": "群聊、私聊智能AI对话",
       "description": "MKAI",
       "tags": ["娱乐"],
-      "download": "https://github.com/tc-404/kakake-plugin-main/releases/download/111/kakake-plugin-mkai-1.4.0.zip",
-      "sha256": "f4b36bb5f38e3c74012f8f1d3d61246a66565c53aef311f995f4c334c1d66547"
+      "download": "https://github.com/tc-404/kakake-plugin-main/releases/download/111/kakake-plugin-mkai-1.5.0.zip",
+      "sha256": "f94593cd3ed8813d6428311c2081c5894b312add6e13604e2f8f6311d06906d6"
     },
     {
       "title": "问答系统",
