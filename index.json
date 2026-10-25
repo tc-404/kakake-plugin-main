@@ -5,7 +5,7 @@
   "plugins": [
     {
       "title": "MKbot",
-      "version": "2.3.10",
+      "version": "2.3.11",
       "plugin_id": "kakake-plugin-mkbot",
       "name": "tc-404",
       "type": "野生",
