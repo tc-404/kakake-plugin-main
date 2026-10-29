@@ -114,6 +114,20 @@
       "tags": ["工具", "图片处理"],
       "download": "https://github.com/tc-404/kakake-plugin-main/releases/download/111/kakake-plugin-carousel.zip",
       "sha256": "e7cd6d690a8ec19b06fe50f0a7899e148bc8834adf44cbf56c1c21ac792d6bd4"
+    },
+    {
+      "title": "简易文本",
+      "version": "0.3.1",
+      "plugin_id": "GF-plugin-mkjianyi*",
+      "name": "tc-404*",
+      "type": "官方",
+      "min_kakake": "0.5.0",
+      "homepage": "https://github.com/tc-404/kakake-plugin-main",
+      "summary": "在「文本类插件」目录里写 .ka 脚本即可响应当前消息，走 QQ 官方机器人车道，支持群聊/私聊、生命周期事件、Markdown、按钮回调、HTTP 访问与文件持久化。",
+      "description": "本插件走 kakake GF 官方车道（目录 GF-plugin-mkjianyi），对接 QQ 开放平台机器人，不是 OneBot / NapCat 野生协议。在「文本类插件/」下新建任意名称的 .ka 文件即可使用，目录名固定，保存即生效（系统不支持目录监听时退回每 3 秒兜底重扫）；某个 .ka 解析失败只跳过它自己并在日志里写明文件名、行号与原因。内置 [文本消息] / [事件] / [群号] / [发言人] / [获取群身份] / [获取群信息] / [查询群禁言] / [AppID] / [消息ID] / [取艾特] / [取括号] / [时间] 等方括号内置值，并提供 [如果]/[反之]、[For循环]、[全局定义]/[临时定义]、[等待]、字符串插值、转数字 / 替换 / 寻找、访问 / 取JSON、读 / 写 / 读文件 / 写文件、发消息 / 发详细消息 / 发Markdown / 发ARK / 撤回 / 设置群禁言 / 审批入群申请、回调钮 / 跳转钮 / 指令钮 / 按钮行 / 键盘、正则 .匹配 等能力。支持图片 / 语音 / 视频 / 文件富媒体标记（URL 或本地），单发媒体不挂文；官方被动回复约 5 条上限，满额自动转主动发送（需开通主动消息）。附带 ka.mtsx 语法高亮规则（MT ≥ 2.16.0）。",
+      "tags": ["工具", "文本", "官方"],
+      "download": "https://github.com/tc-404/kakake-plugin-main/releases/download/111/GF-plugin-mkjianyi.zip",
+      "sha256": "sha256:c30b358dbaf894742eade6b4af94496f47d60fa4d5e2475c9c620664d4eaadeb"
     }
   ]
 }
