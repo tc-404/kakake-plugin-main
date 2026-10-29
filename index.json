@@ -86,6 +86,20 @@
       "tags": ["工具"],
       "download": "https://github.com/tc-404/kakake-plugin-main/releases/download/111/sssx-plugin-spjx-v0.1.0.zip",
       "sha256": "f2d9ef45b7609cc2e3793e49518a9d367524c19b226ca149f4b093b1a2bafa69"
+    },
+    {
+      "title": "表情包画廊",
+      "version": "0.1.0",
+      "plugin_id": "kakake-face-gallery",
+      "name": "tc-404",
+      "type": "野生",
+      "min_kakake": "0.6.9",
+      "homepage": "https://github.com/tc-404/kakake-plugin-main",
+      "summary": "无指令、无配置的纯网页后台插件：浏览机器人账号收藏的表情包，支持原图、复制直链、一键下载。",
+      "description": "把当前机器人账号收藏（自定义）的表情包在网页里铺开浏览。每页 25 张（电脑宽屏自动扩展到 50 张），等比满行排版；支持 GIF / APNG / 动态 WebP 动态播放，单击图片查看原图，卡片右下角可复制图片直链、通过插件后端代理一键下载原图。数据来自 OneBot 接口 fetch_custom_face，固定取 count: 1000；插件只做直链透传，不缓存、不落盘图片，下载只放行当前列表里出现过的直链。后台页面与接口均走控制台登录态。",
+      "tags": ["工具", "表情包"],
+      "download": "https://github.com/tc-404/kakake-plugin-main/releases/download/111/kakake-face-gallery.zip",
+      "sha256": "5675105bca326bf92c06f9e1805ed85ccfb7c88b22232bf63a63c0fc7e6b6fb6"
     }
   ]
 }
