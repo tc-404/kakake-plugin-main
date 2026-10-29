@@ -104,8 +104,8 @@
     {
       "title": "制作轮播图",
       "version": "0.3.0",
-      "plugin_id": "kakake-carousel-maker*",
-      "name": "三个句号*",
+      "plugin_id": "kakake-carousel-maker",
+      "name": "三个句号",
       "type": "野生",
       "min_kakake": "0.5.0",
       "homepage": "https://github.com/tc-404/kakake-plugin-main",
@@ -118,8 +118,8 @@
     {
       "title": "简易文本",
       "version": "0.3.1",
-      "plugin_id": "GF-plugin-mkjianyi*",
-      "name": "tc-404*",
+      "plugin_id": "GF-plugin-mkjianyi",
+      "name": "tc-404",
       "type": "官方",
       "min_kakake": "0.5.0",
       "homepage": "https://github.com/tc-404/kakake-plugin-main",
@@ -132,8 +132,8 @@
     {
       "title": "修改机型",
       "version": "0.1.0",
-      "plugin_id": "kakake-device-model-changer*",
-      "name": "tc-404*",
+      "plugin_id": "kakake-device-model-changer",
+      "name": "tc-404",
       "type": "野生",
       "min_kakake": "0.5.0",
       "homepage": "https://github.com/tc-404/kakake-plugin-main",
@@ -142,6 +142,20 @@
       "tags": ["工具", "账号", "设备"],
       "download": "https://github.com/tc-404/kakake-plugin-main/releases/download/111/kakake-plugin-mkmodel.zip",
       "sha256": "sha256:f287ec1860e412d42df8c1a239f0f1da0bd6147eb6e0d149e1d5e253ce086e79"
+    },
+    {
+      "title": "定时撤回",
+      "version": "0.3.2",
+      "plugin_id": "sssx-plugin-mkchehui",
+      "name": "tc-404",
+      "type": "双生",
+      "min_kakake": "0.6.9",
+      "homepage": "https://github.com/tc-404/kakake-plugin-main",
+      "summary": "监听机器人本账号发出的消息，在设定秒数后自动撤回，按群/好友单独开关与配置，一份代码同时支持 OneBot11 与 QQ 官方机器人。",
+      "description": "定时撤回会监听机器人（本账号）发出的消息，在设定秒数后自动撤回，适合验证码、临时提示、刷屏提醒等「发完过一会儿自己消失」的场景。只撤本账号发出的消息，按群/好友单独开关、单独配置，双生插件同一目录可同时挂在 OneBot 连接和 QQ 官方连接上，各账号独立实例、独立配置。支持三种监听模式：本账号（依赖协议端开启上报自身消息）、Kakake（经 Kakake 插件框架发出的消息）、插件（按插件 ID 过滤）。倒计时填 0 表示不撤回；私聊上限 119 秒，群聊本账号为管理员/群主时上限 600 秒，普通成员会被实时压回 119 秒。插件会登记自己待撤的消息，检测到其他插件已撤回时自动取消定时器并跳过，避免重复撤回。官方侧没有群/好友列表接口，需在列表页顶部手动录入 openid，localStorage 持久。框架 v0.6.9 起代理通道发出的调用也会补发 action_result，「Kakake / 插件」模式同样能捕获。",
+      "tags": ["工具", "群管"],
+      "download": "https://github.com/tc-404/kakake-plugin-main/releases/download/111/sssx-plugin-mkchehui.zip",
+      "sha256": "57d5348f69b0547620c7e062a117686889116351b0e06354e832fdb249f1c25e"
     }
   ]
 }
