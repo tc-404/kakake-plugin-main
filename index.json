@@ -128,6 +128,20 @@
       "tags": ["工具", "文本", "官方"],
       "download": "https://github.com/tc-404/kakake-plugin-main/releases/download/111/GF-plugin-mkjianyi.zip",
       "sha256": "sha256:c30b358dbaf894742eade6b4af94496f47d60fa4d5e2475c9c620664d4eaadeb"
+    },
+    {
+      "title": "修改机型",
+      "version": "0.1.0",
+      "plugin_id": "kakake-device-model-changer*",
+      "name": "tc-404*",
+      "type": "野生",
+      "min_kakake": "0.5.0",
+      "homepage": "https://github.com/tc-404/kakake-plugin-main",
+      "summary": "网页扫码登录 QQ 空间后，修改好友可见的在线设备名/机型展示。",
+      "description": "本插件通过后台独立扫码登录 QQ 空间，获取登录态后调用公开业务接口，修改「好友可见的在线设备名/机型」。支持为账号保存设备码、提交自定义在线机型名称（及可选的网络状态文案），并在本机插件数据目录缓存登录 cookie，下次无需扫码即可直接改机型（登录态失效或重新扫码时需重新操作）。插件不修改手机系统真实机型，也不保证长期可用；若电脑 QQ / 平板等其他端同时在线，好友看到的在线设备名可能被覆盖。设备码需从手机 QQ 内打开指定链接获取（安卓优先 identifier，iOS 用 msf_identifier），填错设备码时接口可能仍显示「成功」但好友侧不变。登录成功后 cookie、设备码等数据仅保存在本机插件数据目录，不会上传至作者服务器，请求直接发往腾讯相关域名。",
+      "tags": ["工具", "账号", "设备"],
+      "download": "https://github.com/tc-404/kakake-plugin-main/releases/download/111/kakake-plugin-mkmodel.zip",
+      "sha256": "sha256:f287ec1860e412d42df8c1a239f0f1da0bd6147eb6e0d149e1d5e253ce086e79"
     }
   ]
 }
