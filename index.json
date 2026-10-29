@@ -100,6 +100,20 @@
       "tags": ["工具", "表情包"],
       "download": "https://github.com/tc-404/kakake-plugin-main/releases/download/111/kakake-face-gallery.zip",
       "sha256": "5675105bca326bf92c06f9e1805ed85ccfb7c88b22232bf63a63c0fc7e6b6fb6"
+    },
+    {
+      "title": "制作轮播图",
+      "version": "0.3.0",
+      "plugin_id": "kakake-carousel-maker*",
+      "name": "三个句号*",
+      "type": "野生",
+      "min_kakake": "0.5.0",
+      "homepage": "https://github.com/tc-404/kakake-plugin-main",
+      "summary": "把多张相近图片横切后合成循环动图，以合并转发送回，支持严格与自适应两种模式。",
+      "description": "同一条消息附带 2～10 张图片，发送「制作轮播图」或「制作自适应轮播图」即可把图片按指定份数横切、以指定帧间隔合成循环动图，并通过合并转发送回。支持自定义份数（2～15）与帧间隔（200～3000ms），严格模式要求各图宽高差 ≤50px，自适应模式可自动对齐尺寸（但禁止明显横竖屏混用）。访问权限按 [QQ:数字] / [group:数字] 配置，需在插件后台安装 Sharp 图片处理依赖。",
+      "tags": ["工具", "图片处理"],
+      "download": "https://github.com/tc-404/kakake-plugin-main/releases/download/111/kakake-plugin-carousel.zip",
+      "sha256": "e7cd6d690a8ec19b06fe50f0a7899e148bc8834adf44cbf56c1c21ac792d6bd4"
     }
   ]
 }
