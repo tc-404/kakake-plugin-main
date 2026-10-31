@@ -159,7 +159,7 @@
     },
     {
       "title": "部分二维码撤回",
-      "version": "1.1.1",
+      "version": "1.2.0",
       "plugin_id": "sssx-plugin-qr-guard",
       "name": "tc-404",
       "type": "双生",
@@ -168,8 +168,8 @@
       "summary": "群聊图片/动图二维码识别与处置：检测到含二维码的图片后按群配置执行撤回/禁言/群内提醒，自动豁免群主与管理员。",
       "description": "群聊图片/动图的二维码识别与处置插件，检测到含二维码的图片后，按配置执行撤回 / 禁言 / 群内提醒（可混搭），并自动豁免群主与管理员。双生插件（sssx-）：一份代码同时支持 OneBot 野生机器人（NapCat / SnowLuma）与 QQ 官方机器人，数据按账号隔离、互不干扰。工作流为总开关/群开关 → 发言人身份豁免 → 取图（图片段与文件形式图片，魔数把关）→ 纯 JS 解码 + jsQR 双向反色扫描（先降采样再原尺寸，GIF 按配置扫前 N 帧，单图有时间预算）→ 核实自身权限 → 按群配置执行撤回 → 禁言 → 警告 → 写入处置记录。识别链为微信扫码引擎（OpenCV wechat_qrcode）→ zxing-cpp（wasm）→ jsQR → 图形特征检测（微信小程序葵花码），支持 JPEG / PNG / GIF 逐帧 / WebP，任一引擎初始化失败自动降级。WebUI 只有群列表 + 开关，点头像可配置本群启用、撤回/禁言/警告组合、禁言时长与警告文案；新登记的群默认关闭。官方侧需开通「接收所有消息」才能处理非 @ 消息，禁言需机器人有群管理员身份且仅能禁言普通成员。",
       "tags": ["工具", "群管"],
-      "download": "https://github.com/tc-404/kakake-plugin-main/releases/download/111/sssx-plugin-qr-guard.zip",
-      "sha256": "21a13e8828cc7bed4db8fa24184deeb3bc7e14cba132502a7bc4f6283947b317"
+      "download": "https://github.com/tc-404/kakake-plugin-main/releases/download/111/sssx-plugin-qr-guard-1.2.0.zip",
+      "sha256": "e5b3a38a0c0558c84a97960edec20bfe63c4853817569bf1b75cc42f670721e9"
     }
   ]
 }
