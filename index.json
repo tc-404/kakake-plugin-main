@@ -170,6 +170,20 @@
       "tags": ["工具", "群管"],
       "download": "https://github.com/tc-404/kakake-plugin-main/releases/download/111/sssx-plugin-qr-guard-1.2.0.zip",
       "sha256": "e5b3a38a0c0558c84a97960edec20bfe63c4853817569bf1b75cc42f670721e9"
+    },
+    {
+      "title": "小黑盒签到",
+      "version": "0.1.0*",
+      "plugin_id": "kz-plugin-heybox",
+      "name": "tc-404",
+      "type": "扩展",
+      "min_kakake": "0.6.10",
+      "homepage": "https://github.com/tc-404/kakake-plugin-main",
+      "summary": "每天定时完成小黑盒签到与三项分享任务，网页后台查看多账号执行结果，不绑连接、不收消息。",
+      "description": "咔咔珂扩展插件（kz-plugin- 形态），不绑连接、不收消息，每天按北京时间定时把小黑盒的签到和三项分享任务（分享帖子、分享游戏、分享游戏评价）跑完，并在网页后台查看结果。支持多账号互不影响、记录最近 30 次执行结果、错过时间按补跑窗口补跑（当天没成功过才补）。自动执行默认关闭，需全局「每天自动执行」开关 + 账号「允许自动执行」同时开启，并满足到点、当天未成功等条件；手动执行不受限。登录支持短信登录（本地用 jsdom 跑官方指纹 SDK 换设备令牌，组件约 29MB 需后台一键 npm install）与粘贴凭据（pkey / x_xhh_tokenid / device_id / heybox_id，或整段 heybox-daily config.json）。凭据存于 data/kz-plugin-heybox/accounts.json，AES-256-GCM 加密，密钥为同目录 secret.key，仅能防配置文件外传，防不住可读整个目录的人。签名算法锁定小黑盒 APP 1.3.398 / build 1142 / shader 14，官方更新后接口校验会失效。魔改自开源项目 heybox-daily（作者 Cansiny0320，MIT License），上游版权声明与许可文本保留在 THIRD-PARTY-NOTICE.md 随插件分发。",
+      "tags": ["工具", "签到", "扩展"],
+      "download": "https://github.com/tc-404/kakake-plugin-main/releases/download/222/kz-plugin-heybox.zip",
+      "sha256": "2c03f08fdd4b52d5e47c9c45949073784e9f19fef2308de874a1e8e6bec52355"
     }
   ]
 }
