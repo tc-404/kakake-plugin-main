@@ -173,7 +173,7 @@
     },
     {
       "title": "小黑盒签到",
-      "version": "0.1.0*",
+      "version": "0.1.0",
       "plugin_id": "kz-plugin-heybox",
       "name": "tc-404",
       "type": "扩展",
