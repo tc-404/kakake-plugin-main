@@ -184,6 +184,20 @@
       "tags": ["工具", "签到", "扩展"],
       "download": "https://github.com/tc-404/kakake-plugin-main/releases/download/222/kz-plugin-heybox.zip",
       "sha256": "2c03f08fdd4b52d5e47c9c45949073784e9f19fef2308de874a1e8e6bec52355"
+    },
+    {
+      "title": "漫画下载",
+      "version": "1.3.4",
+      "plugin_id": "kakake-plugin-comic-downloader",
+      "name": "*",
+      "type": "野生",
+      "min_kakake": "0.6.9",
+      "homepage": "*",
+      "summary": "首先，我什么都不知道。其次，我要删库",
+      "description": "在群里或私聊发送 /jm 本子号（或 /jm p章节号），机器人把整本漫画下载下来、还原图片并拼成一个 PDF 发到群里，下载、还原、拼 PDF 全部在运行机器人的本机完成，Windows 与 Linux 通用，无需安装 Python 或 jmcomic。支持自定义指令前缀、可用范围（[QQ:数字] / [group:数字]，留空等于谁都不能用）、并发数、JPEG 质量、最多下载页数、发送方式（PDF 文件 / 合并转发 / 逐条发图 / PDF+合并转发）、合并转发每包图片数、PDF 体积上限、发送后自动撤回、保留天数与最多保留本数等配置，改完保存立即生效。进度只在 25%/50%/75%/99% 各发一条并自动撤回上一条，每条进度引用原指令；同一群或同一人同时只能下一单；个别图片失败不会中断，最后提示失败张数。PDF 超过体积上限或拼装失败会自动降级为合并转发，合并转发再失败才逐条发图。文件存于 data/<QQ号>/kakake-plugin-comic-downloader/漫画/<本子号>/，升级重装不动该目录，卸载不会自动删除。内置引擎直连站点接口，站点改版可能失效且不支持代理；可改用外部 jmcomic 下载器。使用需自行承担内容版权、QQ 风控、群成员可见可保存、撤回不一定成功、磁盘占用等风险，插件本身不提供、不存储、不分发任何漫画内容。",
+      "tags": ["工具", "下载", "漫画"],
+      "download": "https://github.com/tc-404/kakake-plugin-main/releases/download/222/-.-v1.3.4.zip",
+      "sha256": "bce41b48298dd5384ce63e1a50a064ad26b5702f82e6c4fce40df4615fb873c4"
     }
   ]
 }
