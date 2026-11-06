@@ -19,17 +19,17 @@
     },
     {
       "title": "AI",
-      "version": "1.5.00",
+      "version": "1.6.0",
       "plugin_id": "kakake-plugin-mkai",
       "name": "tc-404",
       "type": "野生",
       "min_kakake": "0.5.0",
       "homepage": "https://github.com/tc-404/kakake-plugin-mkai",
       "summary": "群聊、私聊智能AI对话",
-      "description": "MKAI",
+      "description": "本插件为测试品，切勿当正式品使用，因设计问题，会很大程度的消耗token，所以用时推荐接中转站接口",
       "tags": ["娱乐"],
-      "download": "https://github.com/tc-404/kakake-plugin-mkai/releases/download/1.5.00/kakake-plugin-mkai-1.5.0.zip",
-      "sha256": "c06b70f3f4ce7c0b860ba9945a2ae235af3f8e21fba24d491b6bc52c8ba4bd4e"
+      "download": "https://github.com/tc-404/kakake-plugin-mkai/releases/download/1.6.0/kakake-plugin-mkai-1.6.0.zip",
+      "sha256": "425dd46f96a6ae09e88d4c90903c8431cb50f0f73b06e1d08ab56681abb8a3f8"
     },
     {
       "title": "问答系统",
