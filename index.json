@@ -5,7 +5,7 @@
   "plugins": [
     {
       "title": "MKbot",
-      "version": "2.3.12",
+      "version": "2.3.13",
       "plugin_id": "kakake-plugin-mkbot",
       "name": "tc-404",
       "type": "野生",
@@ -14,8 +14,8 @@
       "summary": "综合娱乐和群管插件",
       "description": "MKbot —— 综合娱乐与群管功能插件，含丰富的娱乐玩法与群管理工具。",
       "tags": ["娱乐", "群管"],
-      "download": "https://github.com/tc-404/kakake-plugin-mkbot/releases/download/2.3.12/kakake-plugin-mkbot-2.3.12.zip",
-      "sha256": "cc58c4073c931a4d80900057da17c67540ba4965287b9b71190b00264da8f913"
+      "download": "https://github.com/tc-404/kakake-plugin-mkbot/releases/download/2.3.13/kakake-plugin-mkbot-2.3.13.zip",
+      "sha256": "fd5a22fb91cef355ee57471a2e49a86fe9a68370f40136029c8ae9b390cf31a2"
     },
     {
       "title": "AI",
