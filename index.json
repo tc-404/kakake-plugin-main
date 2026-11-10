@@ -198,6 +198,20 @@
       "tags": ["工具", "下载", "漫画"],
       "download": "https://github.com/tc-404/kakake-plugin-main/releases/download/222/-.-v1.3.4.zip",
       "sha256": "bce41b48298dd5384ce63e1a50a064ad26b5702f82e6c4fce40df4615fb873c4"
+    },
+    {
+      "title": "TG协议机器人例子插件",
+      "version": "1.0.0*",
+      "plugin_id": "TG-plugin-test",
+      "name": "tc-404",
+      "type": "Telegram",
+      "min_kakake": "0.6.11",
+      "homepage": "https://github.com/tc-404/kakake-plugin-main",
+      "summary": "Telegram Bot API 消息输出全量演示插件：测试1 到 测试16 覆盖文本、媒体、键盘、内联、编辑、投票、文件、接口、群组、贴纸等能力，支持 /help 分页菜单与一键演示。",
+      "description": "Telegram Bot API 消息输出全量演示插件，所有指令以「测试」开头，/help 打开分页菜单，每页一个系列。测试1 打开系列 1 菜单页，测试1-1 执行系列 1 第 1 项，多级分支用短横线，如 测试5-1、测试16-7。共 16 个系列：基础文本、媒体消息、内联键盘、回复键盘、内联模式、编辑与动态、媒体组、位置联系人、投票骰子、文件与本地读写、接口访问、命令与菜单、群组信息、贴纸、新版本能力、混搭组合。发送「一键演示」会按系列与节点顺序逐个输出，每个节点先发说明再执行实际输出；演示异步进行不阻塞其他指令，群聊自动放慢到每项 3200 毫秒以上，遇到限频按 retry_after 退避，演示期间再次发送会提示进行中。群聊中仅私聊可用的节点会自动跳过并标注，需要 BotFather 配置的节点会标注「需要 BotFather 配置 已跳过」。插件配置项包括 apiTimeout（默认 8000）、enableLocalAssets（默认 true）、demoGapMs（默认 1200，群聊不低于 3200）。内置 assets/ 随包分发 demo.png、demo.txt、demo.wav。已知限制：1-10 消息特效、4-2 至 4-6 请求联系人/位置/投票/用户/聊天、6-4 流式草稿、15-6 发送草稿仅私聊可用；3-4 WebApp 按钮、3-7 登录按钮需 BotFather 配置域名；13-3 管理员列表需机器人是群管理员；内联模式 5-x 需 BotFather /setinline。",
+      "tags": ["工具", "测试", "Telegram"],
+      "download": "https://github.com/tc-404/kakake-plugin-main/releases/download/333/TG-plugin-test.zip",
+      "sha256": "bdba05f1aed640a98c02d5e19fe6163d25863a0530dd7644d0a5b2d56553679d"
     }
   ]
 }
