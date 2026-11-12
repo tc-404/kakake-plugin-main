@@ -134,7 +134,7 @@
       "version": "1.0.0",
       "plugin_id": "kz-plugin-mkmodel",
       "name": "tc-404",
-      "type": "野生",
+      "type": "扩展",
       "min_kakake": "0.6.10",
       "homepage": "https://github.com/tc-404/kakake-plugin-main",
       "summary": "网页扫码登录 QQ 空间后，修改好友可见的在线设备名/机型展示。",
