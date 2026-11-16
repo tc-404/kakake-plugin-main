@@ -212,6 +212,48 @@
       "tags": ["工具", "测试", "Telegram"],
       "download": "https://github.com/tc-404/kakake-plugin-main/releases/download/333/TG-plugin-test.zip",
       "sha256": "bdba05f1aed640a98c02d5e19fe6163d25863a0530dd7644d0a5b2d56553679d"
+    },
+    {
+      "title": "今日运势",
+      "version": "1.3.4",
+      "plugin_id": "GF-plugin-fortune",
+      "name": "tc-404",
+      "type": "官方",
+      "min_kakake": "0.6.9",
+      "homepage": "https://github.com/tc-404/kakake-plugin-main",
+      "summary": "QQ 官方机器人原生 GF 插件：发送「今日运势」生成专属今日状态卡片，配趣味科普解读，支持换一个与按素材真实像素获取原图。",
+      "description": "QQ 官方机器人原生 GF 插件（GF-plugin-fortune），纯原生官方车道，全部消息以官方 Markdown（msg_type=2）输出，卡片图片走官方素材上传通道，无需公网图床、代理或双生协议。私聊或群聊发送「今日运势」或 /jrys 即可生成 720×1280 的今日状态卡片，配 60 条趣味科普文案（状态标签、七星彩色等级、一句话签语、趣味科普解读），解读引用腺苷竞争、蔡格尼克效应、峰终定律、婴儿图式等概念且措辞克制。每天同一用户结果固定，由日期与用户标识共同决定；/jrys换一个 强制重抽并写入当日记录，再查今日运势返回重抽后的那张；/jrys原图 取当日这一签的无损原图。卡片用 sharp 动态渲染，高度按内容自适应，淡色/深色两套配色（深色方案保留给背景 10、13、18、20、22），双层高斯模糊阴影，头像三级兜底并圆形裁剪，内置 25 张背景图（png/jpg 混排）自动轮转，横版背景按六宫格叠放避开主体。底部挂三个原生指令按钮（今日运势所有人可点；换一个、获取原图在群聊中仅触发用户可点），均为 type=2 指令按钮且不自动发送，点击只填入输入框。获取原图改走富媒体文件接口（POST /v2/groups/{group_openid}/files 或 /v2/users/{openid}/files，file_type=1、base64 file_data），按 msg_type=7 普通图片消息发送，首选 PNG 无损，被拒自动降级同分辨率高质量 JPEG；竖版最多 1738×3090，横版最多 3840×2160。素材上传严格按 prepare → PUT 预签名地址 → complete → Markdown 引用四步，按 md5 缓存链接避免重复占用配额；Markdown 使用原生 *** 分割线。换一个时若上一张卡片在 115 秒内发送会静默撤回。sharp 依赖优先使用 data/runtime-deps，其次项目根 node_modules。",
+      "tags": ["工具", "娱乐", "官方"],
+      "download": "https://github.com/tc-404/kakake-plugin-main/releases/download/444/GF-plugin-fortune.zip",
+      "sha256": "d7e754ac9457fea8bc8fcf941180bd94a12ece3006cbd40aeedf90a1024e876f"
+    },
+    {
+      "title": "KOOK演示插件",
+      "version": "0.1.0",
+      "plugin_id": "ss-plugin-demo",
+      "name": "三个句号",
+      "type": "KOOK",
+      "min_kakake": "0.4.17",
+      "homepage": "https://github.com/tc-404/kakake-plugin-main",
+      "summary": "需0.4.17版本以上的kakake才可以使用",
+      "description": "需0.4.17版本以上的kakake才可以使用",
+      "tags": ["工具"],
+      "download": "https://github.com/tc-404/kakake-plugin-main/releases/download/444/ss-plugin-demo.zip",
+      "sha256": "a58d402bf247d5583eefc65e078b02aab5e5c31bd97464cce776100911184700"
+    },
+    {
+      "title": "微信机器人插件示例",
+      "version": "0.1.0",
+      "plugin_id": "WX-plugin-wxbot",
+      "name": "三个句号",
+      "type": "微信",
+      "min_kakake": "0.4.4",
+      "homepage": "https://github.com/tc-404/kakake-plugin-main",
+      "summary": "微信 BOT 插件开发示例：演示图片、视频、文件、音频附件发送与框架约定，仅作结构参考。",
+      "description": "微信 BOT 插件的开发示例，与 GF_mk（QQ 官方）、MK_chehui（OneBot）互不关联，仅作结构参考。固定指令包括：测试图片发送（拉取 http://api.yujn.cn/api/cos.php 并发送图片）、测试视频发送（拉取 http://api.yujn.cn/api/bianzhuang.php 并发送视频）、测试文件发送（发送本插件 index.mjs 文件）、测试语音发送（拉取 将军.mp3；因 iLink 暂不支持语音气泡，改为发送音频文件附件）。框架约定：安装目录前缀 WX-（如 WX-plugin-wxbot），连接类型 weixin_bot（控制台「微信BOT」），状态文件 data/wx-plugins.json，事件总线 weixin_bot/event，动作 send_text / send_image / send_video / send_file / send_voice / send_typing。安装到咔咔珂：连接管理 → 添加「微信BOT」→ 扫码登录 → 启用；将本目录复制为 plugins/WX-plugin-wxbot/ 或打成 zip 在插件页导入；插件页「微信机器人」分类打开总开关；在该微信连接的「插件」面板打开子开关（会复制到 plugins_two/，改完源码后需重新开一下子开关或重载）。",
+      "tags": ["工具", "示例", "微信"],
+      "download": "https://github.com/tc-404/kakake-plugin-main/releases/download/444/WX-plugin-wxbot.zip",
+      "sha256": "961c51c44af36a9aca599cc593d9225da31b9f15598fa44e9d6c59d73492854d"
     }
   ]
 }
