@@ -47,17 +47,17 @@
     },
     {
       "title": "GF_mk-娱乐",
-      "version": "1.1.0",
-      "plugin_id": "GF-plugin-xinjia",
+      "version": "3.1.5",
+      "plugin_id": "GF-plugin-xjyl",
       "name": "天道化逍遥",
       "type": "官方",
-      "min_kakake": "0.5.0",
-      "homepage": "https://github.com/3671656786/GF-plugin-xinjia",
+      "min_kakake": "0.6.9",
+      "homepage": "https://github.com/3671656786/GF-plugin-xjyl",
       "summary": "[二改]QQ 官方娱乐：点歌、视频解析、今日运势；控制台 React 后台",
       "description": "[二改]QQ 官方娱乐：点歌、视频解析、今日运势；控制台 React 后台",
       "tags": ["娱乐","工具"],
-      "download": "https://github.com/tc-404/kakake-plugin-main/releases/download/111/GF-plugin-xinjia-1.1.0.zip",
-      "sha256": "2a27418d7ea807a496dd35bd4a81f6741d2ce29a727ed37e8ef1432a92ccc2fd"
+      "download": "https://github.com/3671656786/GF-plugin-xjyl/releases/download/v3.1.5/GF-plugin-xjyl-v3.1.5.zip",
+      "sha256": "0616e7b60f095079d37e210ed24a9bc54b676a2762813dc3d489508693f7c818"
     },
     {
       "title": "HTML渲染服务插件",
