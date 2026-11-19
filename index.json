@@ -254,6 +254,20 @@
       "tags": ["工具", "示例", "微信"],
       "download": "https://github.com/tc-404/kakake-plugin-main/releases/download/444/WX-plugin-wxbot.zip",
       "sha256": "961c51c44af36a9aca599cc593d9225da31b9f15598fa44e9d6c59d73492854d"
+    },
+    {
+      "title": "测试",
+      "version": "9.9.9",
+      "plugin_id": "ssss-plugin-111",
+      "name": "三个句号",
+      "type": "扩展",
+      "min_kakake": "9.9.9",
+      "homepage": "https://github.com/tc-404/kakake-plugin-main",
+      "summary": "微信 BOT 插件开发示例：演示图片、视频、文件、音频附件发送与框架约定，仅作结构参考。",
+      "description": "微信 BOT 插件的开发示例，与 GF_mk（QQ 官方）、MK_chehui（OneBot）互不关联，仅作结构参考。固定指令包括：测试图片发送（拉取 http://api.yujn.cn/api/cos.php 并发送图片）、测试视频发送（拉取 http://api.yujn.cn/api/bianzhuang.php 并发送视频）、测试文件发送（发送本插件 index.mjs 文件）、测试语音发送（拉取 将军.mp3；因 iLink 暂不支持语音气泡，改为发送音频文件附件）。框架约定：安装目录前缀 WX-（如 WX-plugin-wxbot），连接类型 weixin_bot（控制台「微信BOT」），状态文件 data/wx-plugins.json，事件总线 weixin_bot/event，动作 send_text / send_image / send_video / send_file / send_voice / send_typing。安装到咔咔珂：连接管理 → 添加「微信BOT」→ 扫码登录 → 启用；将本目录复制为 plugins/WX-plugin-wxbot/ 或打成 zip 在插件页导入；插件页「微信机器人」分类打开总开关；在该微信连接的「插件」面板打开子开关（会复制到 plugins_two/，改完源码后需重新开一下子开关或重载）。",
+      "tags": ["工具", "示例", "微信"],
+      "download": "111",
+      "sha256": ""
     }
   ]
 }
