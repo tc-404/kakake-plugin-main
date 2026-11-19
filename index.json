@@ -254,6 +254,20 @@
       "tags": ["工具", "示例", "微信"],
       "download": "https://github.com/tc-404/kakake-plugin-main/releases/download/444/WX-plugin-wxbot.zip",
       "sha256": "961c51c44af36a9aca599cc593d9225da31b9f15598fa44e9d6c59d73492854d"
+    },
+    ,
+    {
+      "title": "你的插件名",
+      "version": "1.0.0",
+      "plugin_id": "插件包里plugin.json的name字段",
+      "name": "你的GitHub用户名",
+      "type": "其他",
+      "min_kakake": "0.6.9",
+      "homepage": "https://github.com/你的用户名/插件仓库",
+      "summary": "一句话简介",
+      "description": "详细说明、指令、用法",
+      "tags": ["工具"],
+      "download": "占位，等维护者填"
     }
   ]
 }
