@@ -268,6 +268,20 @@
       "tags": ["工具", "LaTeX", "排版", "官方"],
       "download": "https://github.com/tc-404/kakake-plugin-main/releases/download/444/GF-plugin-latex-test.zip",
       "sha256": "d47f67b83c2c0f6ab35eee384889b5cd7c4fcbdc329f4d9c7bf4362d4a85e7d6"
+    },
+    {
+      "title": "星甲娱乐",
+      "version": "3.1.13",
+      "plugin_id": "GF-plugin-xjyl",
+      "name": "3671656786",
+      "type": "官方",
+      "min_kakake": "0.6.10",
+      "homepage": "https://github.com/3671656786/GF-plugin-xjyl",
+      "summary": "咔咔珂（Kakake）QQ 官方机器人娱乐插件，3.0 模块化版本。",
+      "description": "副本 / BOSS / 天下楼 / 转生 / 强化 / 探索 / 挖矿 / 打工 / 钓鱼 / 做菜 / 赌场 / 转盘 / 抽卡 / 银行 / 商店 / 交易行 / 装备升级与转移 / 联盟 / 排行榜 / 音乐点歌 / B 站解析 / 超能力 / 时空门 / 新手指引 / 每日任务 / 群管 / 网页控制台；战斗自动用药",
+      "tags": ["工具"],
+      "download": "https://github.com/3671656786/GF-plugin-xjyl/releases/download/v3.1.13/GF-plugin-xjyl-v3.1.13.zip",
+      "sha256": "aab6c875e84cc89cea3170b193f41084b11a32433a20a3e2d8041ac111455a82"
     }
   ]
 }
