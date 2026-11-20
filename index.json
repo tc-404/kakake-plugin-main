@@ -254,6 +254,20 @@
       "tags": ["工具", "示例", "微信"],
       "download": "https://github.com/tc-404/kakake-plugin-main/releases/download/444/WX-plugin-wxbot.zip",
       "sha256": "961c51c44af36a9aca599cc593d9225da31b9f15598fa44e9d6c59d73492854d"
+    },
+    {
+      "title": "更多的字体样式",
+      "version": "1.0",
+      "plugin_id": "GF-plugin-latex-test",
+      "name": "三个句号",
+      "type": "官方",
+      "min_kakake": "0.6.9",
+      "homepage": "https://github.com/tc-404/kakake-plugin-main",
+      "summary": "QQ 官方机器人的 LaTeX / Markdown 字体与排版展示插件：发送「测试N」就地回复对应 Markdown 消息，共 59 条指令逐条演示客户端实际渲染效果。",
+      "description": "QQ 官方机器人的 LaTeX / Markdown 字体与排版展示插件（GF-plugin-latex-test），只在 QQ 官方机器人连接下生效，OneBot 连接不会触发。在任意群聊或单聊发送「测试N」（如 测试1、测试7、测试30），插件就地回复一条对应的 Markdown 消息，逐条展示客户端实际支持的 LaTeX 渲染效果；兼容 测试1～测试59、/测试7（带斜杠）、带 @机器人 前缀的指令。发送「测试列表」（或 测试帮助、测试0）可打印完整指令索引；群聊回群、单聊回人，均为被动回复，无需任何额外配置。59 条指令分为数学公式（行内/居中、上下标、分式积分极限、希腊字母、数学字体）、颜色（\textcolor、\color、\colorbox、\fcolorbox）、框线删除（\boxed、\underline、\utilde、\cancel、\xcancel）、字号与标注（\Huge/\Large/\tiny、\overset 拼音、\underset/\underbrace）、混合内容（综合色卡、公式+颜色+加框、标题排版、\tag）、正文样式与进阶结构（\textbf、矩阵、分段函数、组合数、重音、\displaystyle、间距）、混合海报（彩色大色块、综合排版）、数学布局（长箭头、定界符、占位、\operatorname、\substack、\char、\tfrac、\pmod）、环境与宏（array 表格线、小型矩阵、\def 宏、\tag*、CD 图）、进阶命令（\xrightarrow、\genfrac、\phase、\boldsymbol、\begin{aligned}）等。目录名以 GF- 开头即被宿主扫描，默认启用，无配置项、无网页后台。LaTeX 渲染由 QQ 客户端完成，不同版本以及桌面端、手机的显示效果可能存在差异；源码中 JS 字符串的反斜杠必须双写（如 \\\\frac），二次开发时注意。",
+      "tags": ["工具", "LaTeX", "排版", "官方"],
+      "download": "https://github.com/tc-404/kakake-plugin-main/releases/download/444/GF-plugin-latex-test.zip",
+      "sha256": "d47f67b83c2c0f6ab35eee384889b5cd7c4fcbdc329f4d9c7bf4362d4a85e7d6"
     }
   ]
 }
