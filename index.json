@@ -4,6 +4,20 @@
   "notice": "本商店插件均由社区投稿、经维护者审核后收录。启用即代表你自愿使用该插件，第三方插件的安全与合规请自行甄别。",
   "plugins": [
     {
+      "title": "音乐服务前置",
+      "version": "1.1.1",
+      "plugin_id": "kz-plugin-music-front",
+      "name": "tc-404",
+      "type": "扩展",
+      "min_kakake": "0.6.11",
+      "homepage": "https://github.com/tc-404/kz-plugin-music-front",
+      "summary": "把 QQ 音乐 / 网易云 / 酷狗统一成一套搜索与取直链接口的音乐网关，内置三个完整音乐服务，开箱即用。注意包体约 72 MB，在线安装需稳定 1 MB/s 以上带宽。",
+      "description": "统一 QQ 音乐 / 网易云音乐 / 酷狗音乐的音乐网关插件（扩展插件，只有总开关，不绑定任何聊天连接），把三家平台的「搜索歌曲」和「按序号取播放直链」整理成同一套接口，供其他插件或程序调用。三个平台的音乐服务已完整打包在插件内，装好启用即用，无需自装 Node.js、无需单独启动服务；只占用本机 9500 一个端口，停用自动释放。支持多账号、扫码登录、会员账号优先、失败自动换号重试，320 高音质拿不到时自动降级并回传实际音质。对外提供 GET 接口 /health、/platforms、/search、/pick，默认仅本机可访问，可改 0.0.0.0 并配 IP 白名单，公网模式每分钟合计上限 120 次。⚠️ 包体约 72 MB（内置三个完整音乐服务及依赖，所以开箱即用）：通过插件市场从 GitHub 在线安装时，请确保网络能稳定保持 1 MB/s 以上下载速度，否则很容易超时失败；网络不稳定时更推荐直接到 GitHub 下载 zip、手动解压到 plugins/ 目录，这样最稳妥。三个上游均为非官方音乐 API 实现，仅供学习与个人使用，请尊重版权、支持正版。",
+      "tags": ["工具", "音乐", "扩展"],
+      "download": "https://github.com/tc-404/kz-plugin-music-front/releases/download/1.1.1/kz-plugin-music-front-v1.1.1.zip",
+      "sha256": "2c93d913afc7b092e46b532bb9a4afb96c892c9ef4e6389dfe086becc0c175db"
+    },
+    {
       "title": "MKbot",
       "version": "2.3.13",
       "plugin_id": "kakake-plugin-mkbot",
