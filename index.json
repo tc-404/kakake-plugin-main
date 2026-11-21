@@ -18,6 +18,20 @@
       "sha256": "2c93d913afc7b092e46b532bb9a4afb96c892c9ef4e6389dfe086becc0c175db"
     },
     {
+      "title": "点歌插件",
+      "version": "1.0.0",
+      "plugin_id": "sssx-plugin-mkmusic",
+      "name": "tc-404",
+      "type": "双生",
+      "min_kakake": "0.6.11",
+      "homepage": "https://github.com/tc-404/kz-plugin-music-front",
+      "summary": "双生音乐插件：一份代码同时支持 OneBot11 与 QQ 官方机器人，指令与 MKbot 音乐功能逐字一致，完全依赖前置 kz-plugin-music-front 提供搜索与取直链。",
+      "description": "双生音乐插件（sssx-plugin-mkmusic），一份代码同时挂在 OneBot11 野生协议与 QQ 官方机器人两条协议上，呼唤指令与 MKbot 音乐功能逐字一致，输出纯文本/文本卡片。完全依赖前置插件 kz-plugin-music-front（音乐服务前置）：必须先安装并启用它，并在其后台至少登录一个平台账号；本插件通过其公开 HTTP 接口取数据，端口从 data/config.json 读取（默认 8787），只访问本机。安装后需打开总开关，双生还需在 OneBot/官方连接上分别打开子开关，并在 WebUI 对群聊/好友开启；官方协议无群列表接口，需手动填群 openid。音源规则：默认酷狗，酷我点歌为老别名映射酷狗，网易云点歌、QQ点歌（QQ 必须大写）切换音源；每次点歌和菜单实时读取上游账号状态，仅允许使用上游实际可用的平台。野生协议菜单为合并转发 6 节点，点歌列表纯文本，选歌支持卡片/语音/链接并记忆选歌方式；官方协议全部 Markdown（msg_type=2），点歌列表行尾蓝字可填入语音选歌/链接选歌/收藏，蓝字内置 id 为 6 位、2 小时有效且仅对发起点歌者有效，语音以 file_type=3 上传后按 msg_type=7 发送，失败降级链接。个人歌单按当前发消息人隔离，每页 20 条，收藏按音源+歌名+歌手去重，播放收藏优先用保存的真实歌曲 id。本地数据按账号隔离于 data/<QQ号或AppID>/sssx-plugin-mkmusic/。",
+      "tags": ["工具", "音乐", "双生"],
+      "download": "https://github.com/tc-404/kz-plugin-music-front/releases/download/1.1.1/sssx-plugin-mkmusic.zip",
+      "sha256": "bf378aac3a2d64d7142b56620605e6a1d959323a5e9d4db5825b1a514858b435"
+    },
+    {
       "title": "MKbot",
       "version": "2.3.13",
       "plugin_id": "kakake-plugin-mkbot",
