@@ -47,7 +47,7 @@
     },
     {
       "title": "星甲娱乐【插件内有自动更新】",
-      "version": "3.1.18",
+      "version": "3.3.3",
       "plugin_id": "GF-plugin-xjyl",
       "name": "3671656786",
       "type": "官方",
@@ -56,8 +56,8 @@
       "summary": "咔咔珂（Kakake）QQ 官方机器人娱乐插件，3.0 模块化版本，与第二页的是同一个插件，更新时优先更新本处",
       "description": "咔咔珂（Kakake）QQ 官方机器人娱乐插件，3.0 模块化版本，与第二页的是同一个插件，更新时优先更新本处.副本 / BOSS / 天下楼 / 转生 / 强化 / 探索 / 挖矿 / 打工 / 钓鱼 / 做菜 / 赌场 / 转盘 / 抽卡 / 银行 / 商店 / 交易行 / 装备升级与转移 / 联盟 / 排行榜 / 音乐点歌 / B 站解析 / 超能力 / 时空门 / 新手指引 / 每日任务 / 群管 / 网页控制台；战斗自动用药",
       "tags": ["娱乐","工具"],
-      "download": "https://github.com/3671656786/GF-plugin-xjyl/releases/download/v3.1.18/GF-plugin-xjyl-v3.1.18.zip",
-      "sha256": "6bb021eabe3293d57384071cd4fe9e8b711cd5e713c4cee5920ea066f0312241"
+      "download": "https://github.com/3671656786/GF-plugin-xjyl/releases/download/v3.3.3/GF-plugin-xjyl-v3.3.3.zip",
+      "sha256": "ccb96efc36d830ea8d5326ce08161ffc2ba9bfacbb3f9d81d7a15f00f6e8de8c"
     },
     {
       "title": "HTML渲染服务插件",
@@ -271,7 +271,7 @@
     },
     {
       "title": "星甲娱乐",
-      "version": "3.1.13",
+      "version": "3.3.3",
       "plugin_id": "GF-plugin-xjyl",
       "name": "3671656786",
       "type": "官方",
@@ -280,8 +280,8 @@
       "summary": "咔咔珂（Kakake）QQ 官方机器人娱乐插件，3.0 模块化版本。",
       "description": "副本 / BOSS / 天下楼 / 转生 / 强化 / 探索 / 挖矿 / 打工 / 钓鱼 / 做菜 / 赌场 / 转盘 / 抽卡 / 银行 / 商店 / 交易行 / 装备升级与转移 / 联盟 / 排行榜 / 音乐点歌 / B 站解析 / 超能力 / 时空门 / 新手指引 / 每日任务 / 群管 / 网页控制台；战斗自动用药",
       "tags": ["工具"],
-      "download": "https://github.com/3671656786/GF-plugin-xjyl/releases/download/v3.1.13/GF-plugin-xjyl-v3.1.13.zip",
-      "sha256": "aab6c875e84cc89cea3170b193f41084b11a32433a20a3e2d8041ac111455a82"
+      "download": "https://github.com/3671656786/GF-plugin-xjyl/releases/download/v3.3.3/GF-plugin-xjyl-v3.3.3.zip",
+      "sha256": "ccb96efc36d830ea8d5326ce08161ffc2ba9bfacbb3f9d81d7a15f00f6e8de8c"
     }
   ]
 }
