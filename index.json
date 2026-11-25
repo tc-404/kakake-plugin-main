@@ -310,6 +310,20 @@
       "tags": ["工具"],
       "download": "https://github.com/3671656786/GF-plugin-xjyl/releases/download/v3.3.3/GF-plugin-xjyl-v3.3.3.zip",
       "sha256": "ccb96efc36d830ea8d5326ce08161ffc2ba9bfacbb3f9d81d7a15f00f6e8de8c"
+    },
+    {
+      "title": "GitHub 仓库解析",
+      "version": "0.1.0",
+      "plugin_id": "GF-plugin-github",
+      "name": "tc-404",
+      "type": "官方",
+      "min_kakake": "0.6.9",
+      "homepage": "https://github.com/tc-404/kakake-plugin-main",
+      "summary": "QQ 官方机器人插件：群里发 GitHub 仓库链接，解析并用 Sharp 渲染荣誉墙风格卡片图，Token 读取 kakake 自带 GitHub 授权，无后台、不保存 Token。",
+      "description": "QQ 官方机器人插件（GF- 轨）：群消息里发 GitHub 仓库链接，机器人解析该仓库并用 Sharp 渲染一张“荣誉墙”风格图片回群。识别 https://github.com/owner/repo，兼容省略协议、/issues、/tree/main、.git 结尾；同条消息多个链接只处理第一个，60 秒去重，解析失败只写日志不提示用户。输出优先富 Markdown（msg_type=2）：图片置顶 + 蓝色 LaTeX 大标题 + 最多 200 字简介引用，指标只在卡片图里展示。PNG 先上传官方素材库拿 qqbot-media:// 链接，失败自动回退富媒体 msg_type=7，全程官方接口不用第三方图床。插件没有后台、不保存 Token，唯一来源是 kakake 自带的 data/github-auth.json；没有 Token 时不发任何 GitHub 请求、不给用户发消息，只写日志。卡片数据全部来自 GitHub 官方 REST API（仓库信息、Stars、分支、关注、Forks、发布版、下载次数、贡献者、Languages、Issue 追踪、License/Topics/Open Issues/更新时间），任一子接口失败只影响对应项，不影响主卡片渲染。视觉为纯白底 + 电光蓝 #0070F3 + 等宽字体，无渐变、无 emoji、无阴影；贡献者荣誉墙固定 7 行 × 26 列，最多 181 个头像，超出最后一格显示 +N；画布固定宽 1800、高度自适应，SVG 以 144 DPI 渲染为 2 倍 PNG。Sharp 复用宿主 data/runtime-deps，头像统一旋正转 sRGB，合成报错自动降级为无头像渲染。",
+      "tags": ["工具", "GitHub", "官方"],
+      "download": "https://github.com/tc-404/kakake-plugin-main/releases/download/555/GF-plugin-github-0.1.0.zip",
+      "sha256": "cc508d776a897f4521da90aca36885c8c89823639c6c14c5e9f034013e224ce3"
     }
   ]
 }
