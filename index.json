@@ -74,18 +74,18 @@
       "sha256": "d77267d0ad2d2f1b13513c030e1f4a071a40d310ab034526ee37e88b3689fbbf"
     },
     {
-      "title": "星甲娱乐【插件内有自动更新】",
-      "version": "3.3.3",
+      "title": "星甲娱乐【插件内带自动更新】",
+      "version": "3.3.26",
       "plugin_id": "GF-plugin-xjyl",
       "name": "3671656786",
       "type": "官方",
-      "min_kakake": "0.6.10",
+      "min_kakake": "0.6.11",
       "homepage": "https://github.com/3671656786/GF-plugin-xjyl",
-      "summary": "咔咔珂（Kakake）QQ 官方机器人娱乐插件，3.0 模块化版本，与第二页的是同一个插件，更新时优先更新本处",
-      "description": "咔咔珂（Kakake）QQ 官方机器人娱乐插件，3.0 模块化版本，与第二页的是同一个插件，更新时优先更新本处.副本 / BOSS / 天下楼 / 转生 / 强化 / 探索 / 挖矿 / 打工 / 钓鱼 / 做菜 / 赌场 / 转盘 / 抽卡 / 银行 / 商店 / 交易行 / 装备升级与转移 / 联盟 / 排行榜 / 音乐点歌 / B 站解析 / 超能力 / 时空门 / 新手指引 / 每日任务 / 群管 / 网页控制台；战斗自动用药",
+      "summary": "咔咔珂（Kakake）QQ 官方机器人娱乐插件，3.0 模块化版本",
+      "description": "咔咔珂（Kakake）QQ 官方机器人娱乐插件，3.0 模块化版本.副本 / BOSS / 天下楼 / 转生 / 强化 / 探索 / 挖矿 / 打工 / 钓鱼 / 做菜 / 赌场 / 转盘 / 抽卡 / 银行 / 商店 / 交易行 / 装备升级与转移 / 联盟 / 排行榜 / 音乐点歌 / B 站解析 / 超能力 / 时空门 / 新手指引 / 每日任务 / 群管 / 网页控制台；战斗自动用药",
       "tags": ["娱乐","工具"],
-      "download": "https://github.com/3671656786/GF-plugin-xjyl/releases/download/v3.3.3/GF-plugin-xjyl-v3.3.3.zip",
-      "sha256": "ccb96efc36d830ea8d5326ce08161ffc2ba9bfacbb3f9d81d7a15f00f6e8de8c"
+      "download": "https://github.com/3671656786/GF-plugin-xjyl/releases/download/v3.3.26/GF-plugin-xjyl-v3.3.26.zip",
+      "sha256": "26113f0d366f738b8bb8233bf09c9e4a72404b5c1dd86807d4dc9fb4d92706b5"
     },
     {
       "title": "HTML渲染服务插件",
@@ -298,18 +298,18 @@
       "sha256": "d47f67b83c2c0f6ab35eee384889b5cd7c4fcbdc329f4d9c7bf4362d4a85e7d6"
     },
     {
-      "title": "星甲娱乐",
-      "version": "3.3.3",
-      "plugin_id": "GF-plugin-xjyl",
+      "title": "kzt · QQ 官方机器人网页控制台【插件内带自动更新】",
+      "version": "1.7.1",
+      "plugin_id": "GF-kzt",
       "name": "3671656786",
       "type": "官方",
-      "min_kakake": "0.6.10",
-      "homepage": "https://github.com/3671656786/GF-plugin-xjyl",
-      "summary": "咔咔珂（Kakake）QQ 官方机器人娱乐插件，3.0 模块化版本。",
-      "description": "副本 / BOSS / 天下楼 / 转生 / 强化 / 探索 / 挖矿 / 打工 / 钓鱼 / 做菜 / 赌场 / 转盘 / 抽卡 / 银行 / 商店 / 交易行 / 装备升级与转移 / 联盟 / 排行榜 / 音乐点歌 / B 站解析 / 超能力 / 时空门 / 新手指引 / 每日任务 / 群管 / 网页控制台；战斗自动用药",
+      "min_kakake": "0.5.0",
+      "homepage": "https://github.com/3671656786/GF-kzt",
+      "summary": "kzt · QQ 官方机器人网页控制台",
+      "description": "kzt（插件 ID GF-kzt）是一个运行在 咔咔珂（kakake） 上的 QQ 官方机器人网页控制台插件： 不响应任何聊天指令，只负责记录消息、提供统计，并在控制台里给出可视化管理界面。",
       "tags": ["工具"],
-      "download": "https://github.com/3671656786/GF-plugin-xjyl/releases/download/v3.3.3/GF-plugin-xjyl-v3.3.3.zip",
-      "sha256": "ccb96efc36d830ea8d5326ce08161ffc2ba9bfacbb3f9d81d7a15f00f6e8de8c"
+      "download": "https://github.com/3671656786/GF-kzt/releases/download/v1.7.1/GF-kzt-1.7.1.zip",
+      "sha256": "3dfb79b7e3fb4fbd460c17c6c0363d382c0f02bbbfb0f36679a95506c103bdd5"
     },
     {
       "title": "GitHub 仓库解析",
