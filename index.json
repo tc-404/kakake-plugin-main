@@ -300,10 +300,10 @@
     {
       "title": "kzt · QQ 官方机器人网页控制台【插件内带自动更新】",
       "version": "1.7.1",
-      "plugin_id": "GF-plugin-xjyl",
+      "plugin_id": "GF-kzt",
       "name": "3671656786",
       "type": "官方",
-      "min_kakake": "0.6.10",
+      "min_kakake": "0.5.0",
       "homepage": "https://github.com/3671656786/GF-kzt",
       "summary": "kzt · QQ 官方机器人网页控制台",
       "description": "kzt（插件 ID GF-kzt）是一个运行在 咔咔珂（kakake） 上的 QQ 官方机器人网页控制台插件： 不响应任何聊天指令，只负责记录消息、提供统计，并在控制台里给出可视化管理界面。",
